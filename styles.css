@@ -1,0 +1,86 @@
+
+*{
+    font-family: ar;
+}
+
+
+.job_row{
+    border: solid 0.5px lightgray;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content:space-between;
+
+}
+
+
+.job_left-container{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+
+.job_left-company{
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.job_left-location{
+    color: black;
+    max-width: 200px;
+    border-radius: 2px;
+    
+}
+
+.job_middle-container{
+    display: flex;
+    width: 250px;
+    align-self: center;
+    
+    
+}
+
+.job_middle-tags{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    
+    
+    
+    
+    
+    
+}
+
+.job_span{
+    border: 2px solid black;
+    margin: 4px;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.job_btn-container{
+    /* display: flex;
+   
+    justify-content: flex-end; */
+ 
+    align-self: center;
+}
+
+
+button.job_right{
+    color: white;
+    border: none;
+    padding: 7px;
+    background-color: salmon;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+
+   
+  
+}
+
+
+
+
